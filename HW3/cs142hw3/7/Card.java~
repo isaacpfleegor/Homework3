@@ -1,0 +1,6 @@
+
+public class Card
+{
+    public int number;
+    public int suit;
+}

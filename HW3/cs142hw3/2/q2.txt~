@@ -1,0 +1,6 @@
+
+I have written a program called first jack.  Players take turns pulling
+cards.  The first one to get a JACK wins!!!
+
+I would like you to re-write Card.java to be encapsulated.  You must
+use a constructor and a toString method.  You need to then 

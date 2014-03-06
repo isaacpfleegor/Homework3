@@ -1,0 +1,2 @@
+Please re-write firstjack from q2 to use our Deck.java to draw cards from
+a shuffled deck.  

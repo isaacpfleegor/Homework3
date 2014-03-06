@@ -1,0 +1,32 @@
+Please write the following Coord.java file based on this design document.
+This object should be encapsulated.
+
+// members
+ double _x;
+ double _y;
+
+// methods
+
+ name: constructor
+ desc: sets the members passed on the params
+ params: int x, int y
+ return: n/a
+ 1) store x in _x
+ 2) store y in _y
+
+ name: slope
+ desc: calculates the slope of a line between this
+ object and the parameter
+ params: Coord c
+ return: double - the slope
+ 1) calculate the change in y coords
+ 2) calculate the change in x coords
+ 3) return the change in y divided by change in x
+
+ name: y_intercept
+ desc: calculate the y intercept of a line through
+ this point with with a given slope.
+ params: double slope 
+ 1) return _y - slope * _x;
+
+ 

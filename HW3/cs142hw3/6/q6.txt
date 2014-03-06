@@ -1,0 +1,7 @@
+Write a program to find and print the intercept of two lines.
+
+One line passs through 0,0 and 3,4
+The other passes through 3,0 and 0,4.
+
+call thi program intercept.java
+

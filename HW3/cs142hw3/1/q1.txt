@@ -1,0 +1,3 @@
+
+In q1ans.txt, please list two distinct and real reasons why encapsulation is a good idea.  
+Please use your own words.  

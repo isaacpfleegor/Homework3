@@ -1,0 +1,7 @@
+
+In q1ans.txt, please list two distinct and real reasons why encapsulation is a good idea.  
+Please use your own words.  
+
+// data hiding
+
+//modularity--it's easier to modify parts of a program if they're not all tied together.  (rephrase)

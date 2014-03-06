@@ -1,0 +1,3 @@
+
+Please use the object of the previous quesiotn to make a two player
+game of war.  place the answer in the file q8ans.java
