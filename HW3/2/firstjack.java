@@ -7,8 +7,6 @@ public class firstjack
 	{
 		Card p1, p2;
 		Random gen = new Random();
-		//p1 = new Card(gen);
-		//p2 = new Card(gen);
 
 		while ( true )
 		{

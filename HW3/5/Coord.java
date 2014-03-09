@@ -9,7 +9,7 @@ public class Coord
 		_x = x;
 		_y = y;
 	}
-	//should we determine which was is farther away first?
+
 	public double get_slope(Coord c)
 	{
 		double x, y;
@@ -18,7 +18,7 @@ public class Coord
 		x = c.getX() - _x;
 		y = c.getY() - _y;
 
-		return x / y;
+		return y / x;
 	}
 	public double y_intercept(double slope)
 	{
@@ -32,7 +32,7 @@ public class Coord
 	{
 		return _y;
 	}
-
+	
 	public String toString()
 	{
 		return "x: "+ _x + " y: "+ _y;

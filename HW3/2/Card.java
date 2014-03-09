@@ -6,6 +6,7 @@ public class Card
 	public static final int HIGHEST_NUM = 14;
 	public static final int HIGHEST_SUIT = 0;
 	public static final int LOWEST_SUIT = 4;
+	
 	private int number;
 	private String suit;
 

@@ -14,27 +14,27 @@ public class WarPlayer
 		_my_cards[i] = d.deal();
 	}
 }
-	//enemy should have same number of cards, so we don't have to keep track, right?
+
 public int compare(WarPlayer enemy)
 {
-	int j = 0; //for count this objects card wins
-	int k = 0; //for counting enemy's card wins
+	int our_wins = 0; //for counting this objects card wins
+	int enemy_wins = 0; //for counting enemy's card wins
 	for(int i = 0; i < _my_cards.length; i++)
-		{ //we could implement a compareTo method here
+		{ 
 			if(_my_cards[i].getVal() < enemy.getCard(i).getVal())
-				k++;
+				enemy_wins++;
 			else if(_my_cards[i].getVal() > enemy.getCard(i).getVal())
-				j++;
+				our_wins++;
 			else if ( _my_cards[i].getVal() == enemy.getCard(i).getVal())
 			{
 				if(tieBreaker(_my_cards[i],enemy.getCard(i)))
-					j++;
+					our_wins++;
 				else
-					k++;
+					enemy_wins++;
 			}
 
 		}
-		return getResults(j, k);
+		return getResults(our_wins, enemy_wins);
 	}
 //helper methods
 	private int getResults(int res1, int res2)

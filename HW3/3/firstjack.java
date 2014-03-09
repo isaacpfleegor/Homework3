@@ -10,8 +10,7 @@ public class firstjack
 		Random gen = new Random();
 		Deck the_deck = new Deck();
 		the_deck.shuffle(gen);
-		//p1 = new Card(gen);
-		//p2 = new Card(gen);
+
 
 		while ( true )
 		{

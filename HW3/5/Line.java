@@ -14,14 +14,15 @@ public class Line
 	public Coord get_intersection(Line other)
 	{
 		double interceptDiff = _b - other.getIntercept();
-		double slopeDiff = _m - other.getSlope();
-		double xCoord = interceptDiff / slopeDiff;//need to type cast?
+		double slopeDiff = other.getSlope() - _m ;
+
+		double xCoord = interceptDiff / slopeDiff;
 		double yCoord = _m * xCoord + _b;
+		
 		Coord temp = new Coord((int)xCoord, (int)yCoord);
 
 		return temp;
 	}
-
 
 	public double getSlope()
 	{

@@ -14,6 +14,7 @@ public class Card
 	public Card(int suitNum, int number)
 	{
 		int num = suitNum;
+		suitVal = num;
 		if ( num == 0 )
 			suit = "HEARTS";
 		else if ( num == 1 )
